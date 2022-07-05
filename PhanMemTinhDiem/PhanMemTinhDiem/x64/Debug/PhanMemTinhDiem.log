@@ -1,0 +1,5 @@
+﻿  PhanMemTinhDiem.cpp
+D:\Project Visual\DỰ ÁN 14\PhanMemTinhDiem\PhanMemTinhDiem\PhanMemTinhDiem.cpp(16,54): warning C4101: 'p': unreferenced local variable
+D:\Project Visual\DỰ ÁN 14\PhanMemTinhDiem\PhanMemTinhDiem\PhanMemTinhDiem.cpp(16,57): warning C4101: 'q': unreferenced local variable
+D:\Project Visual\DỰ ÁN 14\PhanMemTinhDiem\PhanMemTinhDiem\PhanMemTinhDiem.cpp(16,51): warning C4101: 'o': unreferenced local variable
+  PhanMemTinhDiem.vcxproj -> D:\Project Visual\DỰ ÁN 14\PhanMemTinhDiem\x64\Debug\PhanMemTinhDiem.exe
