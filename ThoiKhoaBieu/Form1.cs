@@ -20,7 +20,7 @@ namespace App
         {
             InitializeComponent();
             Ping p1 = new Ping();
-            PingReply PR = p1.Send("192.168.1.1");
+            PingReply PR = p1.Send("192.168.1.20");
         }
 
         void updatejoin(){}
