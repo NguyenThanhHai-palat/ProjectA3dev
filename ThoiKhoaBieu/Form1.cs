@@ -20,14 +20,14 @@ namespace App
         {
             InitializeComponent();
             Ping p1 = new Ping();
-            PingReply PR = p1.Send("192.168.1.20");
+            PingReply PR = p1.Send("192.168.1.2");
         }
 
         void updatejoin(){}
         private void UPDATECHECKER_Click(object sender, EventArgs e)
         {
 
-            DialogResult result = MessageBox.Show("Ứng Dụng Sẽ Tải Về Bản Mới Nhất Và Tự Động Cập Nhật.\nBạn Có Đồng Ý?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Ứng Dụng Sẽ Tải Về Bản Mới Nhất Và Tự Động Cập Nhật.\nBạn Có Đồng Ý?", "Thông Báo-E", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (result == DialogResult.OK)
             {
 
@@ -65,7 +65,7 @@ namespace App
                     {
                         client.DownloadFile(
                         "https://satictkb.9a3thsp.cf/tkbviewerdownloader/",saveFile1.FileName);
-                        MessageBox.Show("ĐÃ TẢI XUỐNG ẢNH Ở '" + saveFile1.FileName + "'", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("ĐÃ TẢI XUỐNG ẢNH Ở '" + saveFile1.FileName + "'", "Thông Báo-E", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 catch (Exception ex)
@@ -74,7 +74,7 @@ namespace App
                     {
                         Console.WriteLine(ex.Message);
                         ex = ex.InnerException;
-                        MessageBox.Show(ex.Message, "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(ex.Message, "Thông Báo-E", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         
                     }
                 }
@@ -101,7 +101,7 @@ namespace App
 
         private void autoupdatebtn_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Ứng Dụng Sẽ Tự Động Cập Nhật. Bạn Có Đồng Ý?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Ứng Dụng Sẽ Tự Động Cập Nhật. Bạn Có Đồng Ý?", "Thông Báo-5", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (result == DialogResult.OK)
             {
              
