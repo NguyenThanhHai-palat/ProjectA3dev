@@ -3,8 +3,8 @@ import numpy as np
 from pyzbar.pyzbar import decode
 import json
 with open('data/code.json') as f:
-    json_str = f.read()
-json_obj = json.loads(json_str)
+    datajson = f.read()
+json_obj = json.loads(datajson)
 prev_value = None
 cv2.namedWindow("CHECK QR VE")
 cap = cv2.VideoCapture(0)
